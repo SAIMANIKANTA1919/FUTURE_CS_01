@@ -1,1 +1,14 @@
+Nmap Command Used:
+nmap -sV juiceshop.com
 
+Purpose:
+To identify open ports and services on the target website
+
+Result:
+Ports 80 (HTTP), 443 (HTTPS), and 8080 (HTTP proxy) are open
+
+OWASP ZAP:
+Passive scan performed on http://OWASP juiceshop.com
+
+Browser DevTools:
+Used for analyzing headers and cookies
